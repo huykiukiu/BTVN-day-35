@@ -21,5 +21,5 @@ export default function Pagination() {
     fetchProducts();
   }, []);
   const totalPages = Math.ceil(LIMIT / TOTAL);
-  return <div>Phân trang em chưa xong</div>;
+  return <div>Phân trang em chưa xong 😥</div>;
 }
